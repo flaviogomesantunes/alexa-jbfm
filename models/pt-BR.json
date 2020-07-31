@@ -1,0 +1,68 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "jbfm",
+            "intents": [
+                {
+                    "name": "PlayAudio",
+                    "slots": [],
+                    "samples": [
+                        "play",
+                        "start",
+                        "tocar",
+                        "tocar a jbfm por favor",
+                        "iniciar jbfm",
+                        "iniciar a jbfm",
+                        "abrir jbfm",
+                        "abra jbfm",
+                        "tocar jbfm",
+                        "ouvir jbfm",
+                        "toque jbfm",
+                        "abrir a jbfm",
+                        "abra a jbfm",
+                        "tocar a jbfm",
+                        "ouvir a jbfm",
+                        "toque a jbfm",
+                        "toque a rádio jbfm",
+                        "tocar a rádio jbfm"
+                    ]
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "me ajude",
+                        "me ajuda",
+                        "me ajuda por favor",
+                        "o que eu posso fazer",
+                        "como parar"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}

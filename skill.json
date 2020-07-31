@@ -1,0 +1,76 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Ouça a Rádio JBFM 99,9 FM. A melhor rádio adulta do Brasil. Música e informação na medida certa.",
+          "examplePhrases": [
+            "Alexa, abrir jbfm",
+            "Alexa, abra jbfm",
+            "Alexa, tocar jbfm",
+            "Alexa, ouvir jbfm",
+            "Alexa, toque jbfm",
+            "Alexa, abrir a jbfm",
+            "Alexa, abra a jbfm",
+            "Alexa, tocar a jbfm",
+            "Alexa, ouvir a jbfm",
+            "Alexa, toque a jbfm",
+            "Alexa, toque a rádio jbfm",
+            "Alexa, tocar a rádio jbfm"
+          ],
+          "keywords": [
+            "music",
+            "streaming",
+            "radio"
+          ],
+          "name": "jbfm",
+          "description": "Ouça a Rádio JBFM.\n\nA melhor rádio adulta do Brasil. Música e informação na medida certa, 24 horas por dia.\n\nPara iniciar, apenas diga \"Alexa, toque a JBFM\" ou \"Alexa, ouvir JBFM\" para começar a ouvir a rádio\".\n\nA qualquer momento, você pode parar a rádio dizendo \"Alexa, pare\"",
+          "smallIconUri": "https://jb.fm/alexa/logo-108.png",
+          "largeIconUri": "https://jb.fm/alexa/logo-512.png"
+        },
+        "en-US": {
+          "summary": "Listen JBFM radio.",
+          "examplePhrases": [
+            "Alexa, open jbfm",
+            "Alexa, play jbfm",
+            "Alexa, ask jbfm to play"
+          ],
+          "keywords": [
+            "music",
+            "streaming",
+            "radio"
+          ],
+          "name": "jbfm",
+          "description": "Listen JBFM radio.\n\nThe best adult radio from Brazil.\n\nTo start, just say \"Alexa, open JBFM\" or \"Alexa, play JBFM\" to start the radio\".\n\nAt anytime, you can stop the radio by saying \"Alexa, stop\"",
+          "smallIconUri": "https://jb.fm/alexa/logo-108.png",
+          "largeIconUri": "https://jb.fm/alexa/logo-512.png"
+        }     
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Include your testing instruction (if any) here",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/py"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
